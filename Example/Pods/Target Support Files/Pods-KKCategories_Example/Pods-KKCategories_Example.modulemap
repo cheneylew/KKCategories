@@ -1,0 +1,6 @@
+framework module Pods_KKCategories_Example {
+  umbrella header "Pods-KKCategories_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
