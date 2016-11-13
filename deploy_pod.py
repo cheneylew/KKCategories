@@ -14,17 +14,23 @@ if __name__ == '__main__':
     output = os.popen('git tag')
     text=output.read()
     arr=text.split('\n')
-    print(arr)
+    arr.pop(len(arr)-1)
+    #版本号排序
+    arr.sort(key=lambda x:tuple(int(v) for v in x.split(".")))
+    arr.reverse()
+    print "版本号排序后:"
+    print arr
     length=len(arr)
-    tag=arr[length-2]
+    tag=arr[0]
+    print tag
     if len(tag) >= 0:
         #生成新版本号
         versionArray=tag.split('.')
         v1=versionArray[0]
         v2=versionArray[1]
         v3=versionArray[2]
-        if v3=='9':
-            if v2=='9':
+        if v3=='100':
+            if v2=='100':
                 versionArray[0]=(str)((int)(versionArray[0])+1)
                 versionArray[1]='0'
                 versionArray[2]='0'
