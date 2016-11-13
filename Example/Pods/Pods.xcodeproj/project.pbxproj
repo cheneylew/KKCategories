@@ -16,7 +16,6 @@
 		A8C48B535E194A719DF9DA3AA429FA0D /* KKCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070B3392507E59030DF6F997D1E67686 /* KKCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B09F64959B648A75E1CD662824A8C500 /* Pods-KKCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E232F1B2A45983F27C7B2FB9958926C /* Pods-KKCategories_Example-dummy.m */; };
 		F428F38DCC7D3C286296AE777943E18B /* KKCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E82FBFD62BCBBBF824DE2D8883B20 /* KKCategories-dummy.m */; };
-		F7AB817D2B732BD5E2A74E78FCC21227 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 112967720710FD82E52C6D82D1071426 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		070B3392507E59030DF6F997D1E67686 /* KKCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKCategories-umbrella.h"; sourceTree = "<group>"; };
-		112967720710FD82E52C6D82D1071426 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		17212B28D41D089C80627C15AF40C3F1 /* KKCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KKCategories.modulemap; sourceTree = "<group>"; };
 		1A4B5A175A8385EF69B901B77F9121CE /* Pods-KKCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E232F1B2A45983F27C7B2FB9958926C /* Pods-KKCategories_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKCategories_Example-dummy.m"; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 		9EF44D16033A4F912B591718A512F4A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				112967720710FD82E52C6D82D1071426 /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -346,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F428F38DCC7D3C286296AE777943E18B /* KKCategories-dummy.m in Sources */,
-				F7AB817D2B732BD5E2A74E78FCC21227 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

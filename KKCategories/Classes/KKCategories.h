@@ -30,5 +30,8 @@
 #import "UIView+Borders.h"
 #import "UIButton+JKBlock.h"
 #import "UIImage+LXExtension.h"
+#import "UIView+Screenshot.h"
+#import "UIView+Debug.h"
+#import "UIView+Nib.h"
 
 #endif /* JKCategories_h */

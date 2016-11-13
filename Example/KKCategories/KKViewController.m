@@ -17,7 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setTitle:@"Click" forState:UIControlStateNormal];
+    btn.frame = CGRectMake(0, 100, 100, 40);
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+    
+    [btn jk_addActionHandler:^(NSInteger tag) {
+        [btn jk_addCenterMotionEffectsXYWithOffset:10];
+    }];
 }
 
 - (void)didReceiveMemoryWarning

@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BECCB8CB0E219F6C818A7A54 /* Pods_KKCategories_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC8752361F70BB5177100FB /* Pods_KKCategories_Example.framework */; };
+		C93806C91DD87E690063BF7F /* UIView+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = C93806C81DD87E690063BF7F /* UIView+Debug.m */; };
+		C93806CC1DD887820063BF7F /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = C93806CB1DD887820063BF7F /* UIView+Nib.m */; };
 		C9C062D51DD59C23002FCCFF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C9C062D11DD59C23002FCCFF /* .gitkeep */; };
 		C9C062D61DD59C23002FCCFF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C9C062D31DD59C23002FCCFF /* .gitkeep */; };
 		C9C063031DD59C44002FCCFF /* NSArray+JKSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062DA1DD59C44002FCCFF /* NSArray+JKSafeAccess.m */; };
@@ -46,6 +48,7 @@
 		C9C063151DD59C44002FCCFF /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062FE1DD59C44002FCCFF /* UIView+Borders.m */; };
 		C9C063161DD59C44002FCCFF /* UIView+JKShake.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C063001DD59C44002FCCFF /* UIView+JKShake.m */; };
 		C9C063171DD59C44002FCCFF /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C063021DD59C44002FCCFF /* UIView+Utils.m */; };
+		C9EDE32D1DD8097800995755 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDE32C1DD8097800995755 /* UIView+Screenshot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,10 @@
 		A03733ADEADF9985CFBB4C63 /* Pods_KKCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA77F98EF014E01337853361 /* KKCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKCategories.podspec; path = ../KKCategories.podspec; sourceTree = "<group>"; };
 		BD00CCE76626D146BB1087A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C93806C71DD87E690063BF7F /* UIView+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Debug.h"; sourceTree = "<group>"; };
+		C93806C81DD87E690063BF7F /* UIView+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Debug.m"; sourceTree = "<group>"; };
+		C93806CA1DD887820063BF7F /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		C93806CB1DD887820063BF7F /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
 		C9C062D11DD59C23002FCCFF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C9C062D31DD59C23002FCCFF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C9C062D81DD59C44002FCCFF /* KKCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCategories.h; sourceTree = "<group>"; };
@@ -130,6 +137,8 @@
 		C9C063001DD59C44002FCCFF /* UIView+JKShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKShake.m"; sourceTree = "<group>"; };
 		C9C063011DD59C44002FCCFF /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
 		C9C063021DD59C44002FCCFF /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		C9EDE32B1DD8097800995755 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		C9EDE32C1DD8097800995755 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
 		EBF53556CFD96D8E073F9978 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEC8752361F70BB5177100FB /* Pods_KKCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F078DB6ABF68B3F1965F0B87 /* Pods-KKCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategories_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKCategories_Tests/Pods-KKCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -323,8 +332,14 @@
 				C9C062FC1DD59C44002FCCFF /* UITextField+JKShake.m */,
 				C9C062FD1DD59C44002FCCFF /* UIView+Borders.h */,
 				C9C062FE1DD59C44002FCCFF /* UIView+Borders.m */,
+				C93806C71DD87E690063BF7F /* UIView+Debug.h */,
+				C93806C81DD87E690063BF7F /* UIView+Debug.m */,
+				C93806CA1DD887820063BF7F /* UIView+Nib.h */,
+				C93806CB1DD887820063BF7F /* UIView+Nib.m */,
 				C9C062FF1DD59C44002FCCFF /* UIView+JKShake.h */,
 				C9C063001DD59C44002FCCFF /* UIView+JKShake.m */,
+				C9EDE32B1DD8097800995755 /* UIView+Screenshot.h */,
+				C9EDE32C1DD8097800995755 /* UIView+Screenshot.m */,
 				C9C063011DD59C44002FCCFF /* UIView+Utils.h */,
 				C9C063021DD59C44002FCCFF /* UIView+Utils.m */,
 			);
@@ -542,6 +557,7 @@
 				C9C063071DD59C44002FCCFF /* NSObject+JKBlocks.m in Sources */,
 				C9C063041DD59C44002FCCFF /* NSDate+JKUtilities.m in Sources */,
 				C9C063031DD59C44002FCCFF /* NSArray+JKSafeAccess.m in Sources */,
+				C93806C91DD87E690063BF7F /* UIView+Debug.m in Sources */,
 				C9C063051DD59C44002FCCFF /* NSDictionary+JKJSONString.m in Sources */,
 				C9C0630A1DD59C44002FCCFF /* UIAlertView+JKBlock.m in Sources */,
 				C9C063141DD59C44002FCCFF /* UITextField+JKShake.m in Sources */,
@@ -549,11 +565,13 @@
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
 				C9C0630C1DD59C44002FCCFF /* UIButton+JKImagePosition.m in Sources */,
 				C9C063151DD59C44002FCCFF /* UIView+Borders.m in Sources */,
+				C93806CC1DD887820063BF7F /* UIView+Nib.m in Sources */,
 				C9C0630E1DD59C44002FCCFF /* UIColor+JKHEX.m in Sources */,
 				C9C0630D1DD59C44002FCCFF /* UIColor+JKGradient.m in Sources */,
 				C9C063061DD59C44002FCCFF /* NSDictionary+JKSafeAccess.m in Sources */,
 				C9C063121DD59C44002FCCFF /* UITextField+JKBlocks.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C9EDE32D1DD8097800995755 /* UIView+Screenshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +694,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKCategories/KKCategories-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEBUG_VIEW=1",
+				);
 				INFOPLIST_FILE = "KKCategories/KKCategories-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
