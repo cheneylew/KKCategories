@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BECCB8CB0E219F6C818A7A54 /* Pods_KKCategories_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC8752361F70BB5177100FB /* Pods_KKCategories_Example.framework */; };
+		C914BD9E1DDC2CA5008BFD6C /* UIImage+JKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C914BD9D1DDC2CA5008BFD6C /* UIImage+JKColor.m */; };
+		C914BDA11DDC2CC0008BFD6C /* UIImage+JKOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C914BDA01DDC2CC0008BFD6C /* UIImage+JKOrientation.m */; };
 		C93806C91DD87E690063BF7F /* UIView+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = C93806C81DD87E690063BF7F /* UIView+Debug.m */; };
 		C93806CC1DD887820063BF7F /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = C93806CB1DD887820063BF7F /* UIView+Nib.m */; };
 		C9C062D51DD59C23002FCCFF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C9C062D11DD59C23002FCCFF /* .gitkeep */; };
@@ -88,6 +90,10 @@
 		A03733ADEADF9985CFBB4C63 /* Pods_KKCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA77F98EF014E01337853361 /* KKCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKCategories.podspec; path = ../KKCategories.podspec; sourceTree = "<group>"; };
 		BD00CCE76626D146BB1087A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C914BD9C1DDC2CA5008BFD6C /* UIImage+JKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKColor.h"; sourceTree = "<group>"; };
+		C914BD9D1DDC2CA5008BFD6C /* UIImage+JKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKColor.m"; sourceTree = "<group>"; };
+		C914BD9F1DDC2CC0008BFD6C /* UIImage+JKOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKOrientation.h"; sourceTree = "<group>"; };
+		C914BDA01DDC2CC0008BFD6C /* UIImage+JKOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKOrientation.m"; sourceTree = "<group>"; };
 		C93806C71DD87E690063BF7F /* UIView+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Debug.h"; sourceTree = "<group>"; };
 		C93806C81DD87E690063BF7F /* UIView+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Debug.m"; sourceTree = "<group>"; };
 		C93806CA1DD887820063BF7F /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
@@ -324,6 +330,10 @@
 				C9C062F41DD59C44002FCCFF /* UIControl+JKBlock.m */,
 				C9C062F51DD59C44002FCCFF /* UIImage+LXExtension.h */,
 				C9C062F61DD59C44002FCCFF /* UIImage+LXExtension.m */,
+				C914BD9C1DDC2CA5008BFD6C /* UIImage+JKColor.h */,
+				C914BD9D1DDC2CA5008BFD6C /* UIImage+JKColor.m */,
+				C914BD9F1DDC2CC0008BFD6C /* UIImage+JKOrientation.h */,
+				C914BDA01DDC2CC0008BFD6C /* UIImage+JKOrientation.m */,
 				C9C062F71DD59C44002FCCFF /* UITextField+JKBlocks.h */,
 				C9C062F81DD59C44002FCCFF /* UITextField+JKBlocks.m */,
 				C9C062F91DD59C44002FCCFF /* UITextField+JKSelect.h */,
@@ -549,6 +559,7 @@
 				C9C063131DD59C44002FCCFF /* UITextField+JKSelect.m in Sources */,
 				C9C063081DD59C44002FCCFF /* NSObject+JKRuntime.m in Sources */,
 				C9C063101DD59C44002FCCFF /* UIControl+JKBlock.m in Sources */,
+				C914BD9E1DDC2CA5008BFD6C /* UIImage+JKColor.m in Sources */,
 				C9C0630F1DD59C44002FCCFF /* UIControl+JKActionBlocks.m in Sources */,
 				C9C063111DD59C44002FCCFF /* UIImage+LXExtension.m in Sources */,
 				C9C063091DD59C44002FCCFF /* NSString+JKSize.m in Sources */,
@@ -562,6 +573,7 @@
 				C9C0630A1DD59C44002FCCFF /* UIAlertView+JKBlock.m in Sources */,
 				C9C063141DD59C44002FCCFF /* UITextField+JKShake.m in Sources */,
 				C9C0630B1DD59C44002FCCFF /* UIButton+JKBlock.m in Sources */,
+				C914BDA11DDC2CC0008BFD6C /* UIImage+JKOrientation.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
 				C9C0630C1DD59C44002FCCFF /* UIButton+JKImagePosition.m in Sources */,
 				C9C063151DD59C44002FCCFF /* UIView+Borders.m in Sources */,
