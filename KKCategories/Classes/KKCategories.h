@@ -42,6 +42,8 @@
 #import "UIView+JKBlockGesture.h"
 #import "UIViewController+JKBackButtonTouched.h"
 #import "UIView+JKVisuals.h"
+#import "UIImage+JKCategory.h"
+#import "UIColor+JKCategory.h"
 
 #import "NSString+JKBase64.h"
 #import "NSString+JKContains.h"

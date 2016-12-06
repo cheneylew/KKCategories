@@ -46,6 +46,8 @@
 		C94A794A1DF68FD1003F8BFF /* NSString+JKXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79391DF68FD1003F8BFF /* NSString+JKXMLDictionary.m */; };
 		C94A794D1DF69204003F8BFF /* NSData+JKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A794C1DF69204003F8BFF /* NSData+JKBase64.m */; };
 		C94A79501DF6923C003F8BFF /* NSData+JKEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A794F1DF6923C003F8BFF /* NSData+JKEncrypt.m */; };
+		C94A79531DF6C44C003F8BFF /* UIColor+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79521DF6C44C003F8BFF /* UIColor+JKCategory.m */; };
+		C94A79561DF6C499003F8BFF /* UIImage+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79551DF6C499003F8BFF /* UIImage+JKCategory.m */; };
 		C97AEC0B1DDD779400586B80 /* UIView+JKBlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AEC0A1DDD779400586B80 /* UIView+JKBlockGesture.m */; };
 		C97AEC0E1DDD77C400586B80 /* UIView+JKCustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AEC0D1DDD77C400586B80 /* UIView+JKCustomBorder.m */; };
 		C97AEC111DDD780000586B80 /* UIView+JKFind.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AEC101DDD780000586B80 /* UIView+JKFind.m */; };
@@ -159,6 +161,10 @@
 		C94A794C1DF69204003F8BFF /* NSData+JKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKBase64.m"; sourceTree = "<group>"; };
 		C94A794E1DF6923C003F8BFF /* NSData+JKEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKEncrypt.h"; sourceTree = "<group>"; };
 		C94A794F1DF6923C003F8BFF /* NSData+JKEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKEncrypt.m"; sourceTree = "<group>"; };
+		C94A79511DF6C44C003F8BFF /* UIColor+JKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JKCategory.h"; sourceTree = "<group>"; };
+		C94A79521DF6C44C003F8BFF /* UIColor+JKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JKCategory.m"; sourceTree = "<group>"; };
+		C94A79541DF6C499003F8BFF /* UIImage+JKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKCategory.h"; sourceTree = "<group>"; };
+		C94A79551DF6C499003F8BFF /* UIImage+JKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKCategory.m"; sourceTree = "<group>"; };
 		C97AEC091DDD779400586B80 /* UIView+JKBlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKBlockGesture.h"; sourceTree = "<group>"; };
 		C97AEC0A1DDD779400586B80 /* UIView+JKBlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKBlockGesture.m"; sourceTree = "<group>"; };
 		C97AEC0C1DDD77C400586B80 /* UIView+JKCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKCustomBorder.h"; sourceTree = "<group>"; };
@@ -427,6 +433,8 @@
 				C9C062EC1DD59C44002FCCFF /* UIButton+JKImagePosition.m */,
 				C9C062ED1DD59C44002FCCFF /* UIColor+JKGradient.h */,
 				C9C062EE1DD59C44002FCCFF /* UIColor+JKGradient.m */,
+				C94A79511DF6C44C003F8BFF /* UIColor+JKCategory.h */,
+				C94A79521DF6C44C003F8BFF /* UIColor+JKCategory.m */,
 				C9C062EF1DD59C44002FCCFF /* UIColor+JKHEX.h */,
 				C9C062F01DD59C44002FCCFF /* UIColor+JKHEX.m */,
 				C9C062F11DD59C44002FCCFF /* UIControl+JKActionBlocks.h */,
@@ -437,6 +445,8 @@
 				C9C062F61DD59C44002FCCFF /* UIImage+LXExtension.m */,
 				C914BD9C1DDC2CA5008BFD6C /* UIImage+JKColor.h */,
 				C914BD9D1DDC2CA5008BFD6C /* UIImage+JKColor.m */,
+				C94A79541DF6C499003F8BFF /* UIImage+JKCategory.h */,
+				C94A79551DF6C499003F8BFF /* UIImage+JKCategory.m */,
 				C914BD9F1DDC2CC0008BFD6C /* UIImage+JKOrientation.h */,
 				C914BDA01DDC2CC0008BFD6C /* UIImage+JKOrientation.m */,
 				C9C062F71DD59C44002FCCFF /* UITextField+JKBlocks.h */,
@@ -693,6 +703,7 @@
 				C9C063071DD59C44002FCCFF /* NSObject+JKBlocks.m in Sources */,
 				C9C063041DD59C44002FCCFF /* NSDate+JKUtilities.m in Sources */,
 				C9C063031DD59C44002FCCFF /* NSArray+JKSafeAccess.m in Sources */,
+				C94A79561DF6C499003F8BFF /* UIImage+JKCategory.m in Sources */,
 				C94A79471DF68FD1003F8BFF /* NSString+JKTrims.m in Sources */,
 				C93806C91DD87E690063BF7F /* UIView+Debug.m in Sources */,
 				C97AEC0E1DDD77C400586B80 /* UIView+JKCustomBorder.m in Sources */,
@@ -713,6 +724,7 @@
 				C9C063151DD59C44002FCCFF /* UIView+Borders.m in Sources */,
 				C93806CC1DD887820063BF7F /* UIView+Nib.m in Sources */,
 				C94A79431DF68FD1003F8BFF /* NSString+JKPinyin.m in Sources */,
+				C94A79531DF6C44C003F8BFF /* UIColor+JKCategory.m in Sources */,
 				C9C0630E1DD59C44002FCCFF /* UIColor+JKHEX.m in Sources */,
 				C9C0630D1DD59C44002FCCFF /* UIColor+JKGradient.m in Sources */,
 				C9C063061DD59C44002FCCFF /* NSDictionary+JKSafeAccess.m in Sources */,
