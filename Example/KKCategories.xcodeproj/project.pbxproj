@@ -27,6 +27,25 @@
 		C914BDA11DDC2CC0008BFD6C /* UIImage+JKOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C914BDA01DDC2CC0008BFD6C /* UIImage+JKOrientation.m */; };
 		C93806C91DD87E690063BF7F /* UIView+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = C93806C81DD87E690063BF7F /* UIView+Debug.m */; };
 		C93806CC1DD887820063BF7F /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = C93806CB1DD887820063BF7F /* UIView+Nib.m */; };
+		C94A793A1DF68FD1003F8BFF /* NSString+JKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79191DF68FD1003F8BFF /* NSString+JKBase64.m */; };
+		C94A793B1DF68FD1003F8BFF /* NSString+JKContains.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A791B1DF68FD1003F8BFF /* NSString+JKContains.m */; };
+		C94A793C1DF68FD1003F8BFF /* NSString+JKDictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A791D1DF68FD1003F8BFF /* NSString+JKDictionaryValue.m */; };
+		C94A793D1DF68FD1003F8BFF /* NSString+JKEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A791F1DF68FD1003F8BFF /* NSString+JKEmoji.m */; };
+		C94A793E1DF68FD1003F8BFF /* NSString+JKEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79211DF68FD1003F8BFF /* NSString+JKEncrypt.m */; };
+		C94A793F1DF68FD1003F8BFF /* NSString+JKHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79231DF68FD1003F8BFF /* NSString+JKHash.m */; };
+		C94A79401DF68FD1003F8BFF /* NSString+JKMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79251DF68FD1003F8BFF /* NSString+JKMatcher.m */; };
+		C94A79411DF68FD1003F8BFF /* NSString+JKMIME.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79271DF68FD1003F8BFF /* NSString+JKMIME.m */; };
+		C94A79421DF68FD1003F8BFF /* NSString+JKNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79291DF68FD1003F8BFF /* NSString+JKNormalRegex.m */; };
+		C94A79431DF68FD1003F8BFF /* NSString+JKPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A792B1DF68FD1003F8BFF /* NSString+JKPinyin.m */; };
+		C94A79441DF68FD1003F8BFF /* NSString+JKRemoveEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A792D1DF68FD1003F8BFF /* NSString+JKRemoveEmoji.m */; };
+		C94A79451DF68FD1003F8BFF /* NSString+JKScore.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A792F1DF68FD1003F8BFF /* NSString+JKScore.m */; };
+		C94A79461DF68FD1003F8BFF /* NSString+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79311DF68FD1003F8BFF /* NSString+JKSize.m */; };
+		C94A79471DF68FD1003F8BFF /* NSString+JKTrims.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79331DF68FD1003F8BFF /* NSString+JKTrims.m */; };
+		C94A79481DF68FD1003F8BFF /* NSString+JKURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79351DF68FD1003F8BFF /* NSString+JKURLEncode.m */; };
+		C94A79491DF68FD1003F8BFF /* NSString+JKUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79371DF68FD1003F8BFF /* NSString+JKUUID.m */; };
+		C94A794A1DF68FD1003F8BFF /* NSString+JKXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A79391DF68FD1003F8BFF /* NSString+JKXMLDictionary.m */; };
+		C94A794D1DF69204003F8BFF /* NSData+JKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A794C1DF69204003F8BFF /* NSData+JKBase64.m */; };
+		C94A79501DF6923C003F8BFF /* NSData+JKEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A794F1DF6923C003F8BFF /* NSData+JKEncrypt.m */; };
 		C97AEC0B1DDD779400586B80 /* UIView+JKBlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AEC0A1DDD779400586B80 /* UIView+JKBlockGesture.m */; };
 		C97AEC0E1DDD77C400586B80 /* UIView+JKCustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AEC0D1DDD77C400586B80 /* UIView+JKCustomBorder.m */; };
 		C97AEC111DDD780000586B80 /* UIView+JKFind.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AEC101DDD780000586B80 /* UIView+JKFind.m */; };
@@ -40,7 +59,6 @@
 		C9C063061DD59C44002FCCFF /* NSDictionary+JKSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062E01DD59C44002FCCFF /* NSDictionary+JKSafeAccess.m */; };
 		C9C063071DD59C44002FCCFF /* NSObject+JKBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062E21DD59C44002FCCFF /* NSObject+JKBlocks.m */; };
 		C9C063081DD59C44002FCCFF /* NSObject+JKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062E41DD59C44002FCCFF /* NSObject+JKRuntime.m */; };
-		C9C063091DD59C44002FCCFF /* NSString+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062E61DD59C44002FCCFF /* NSString+JKSize.m */; };
 		C9C0630A1DD59C44002FCCFF /* UIAlertView+JKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062E81DD59C44002FCCFF /* UIAlertView+JKBlock.m */; };
 		C9C0630B1DD59C44002FCCFF /* UIButton+JKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062EA1DD59C44002FCCFF /* UIButton+JKBlock.m */; };
 		C9C0630C1DD59C44002FCCFF /* UIButton+JKImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062EC1DD59C44002FCCFF /* UIButton+JKImagePosition.m */; };
@@ -103,6 +121,44 @@
 		C93806C81DD87E690063BF7F /* UIView+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Debug.m"; sourceTree = "<group>"; };
 		C93806CA1DD887820063BF7F /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
 		C93806CB1DD887820063BF7F /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		C94A79181DF68FD1003F8BFF /* NSString+JKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKBase64.h"; sourceTree = "<group>"; };
+		C94A79191DF68FD1003F8BFF /* NSString+JKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKBase64.m"; sourceTree = "<group>"; };
+		C94A791A1DF68FD1003F8BFF /* NSString+JKContains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKContains.h"; sourceTree = "<group>"; };
+		C94A791B1DF68FD1003F8BFF /* NSString+JKContains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKContains.m"; sourceTree = "<group>"; };
+		C94A791C1DF68FD1003F8BFF /* NSString+JKDictionaryValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKDictionaryValue.h"; sourceTree = "<group>"; };
+		C94A791D1DF68FD1003F8BFF /* NSString+JKDictionaryValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKDictionaryValue.m"; sourceTree = "<group>"; };
+		C94A791E1DF68FD1003F8BFF /* NSString+JKEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKEmoji.h"; sourceTree = "<group>"; };
+		C94A791F1DF68FD1003F8BFF /* NSString+JKEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKEmoji.m"; sourceTree = "<group>"; };
+		C94A79201DF68FD1003F8BFF /* NSString+JKEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKEncrypt.h"; sourceTree = "<group>"; };
+		C94A79211DF68FD1003F8BFF /* NSString+JKEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKEncrypt.m"; sourceTree = "<group>"; };
+		C94A79221DF68FD1003F8BFF /* NSString+JKHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKHash.h"; sourceTree = "<group>"; };
+		C94A79231DF68FD1003F8BFF /* NSString+JKHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKHash.m"; sourceTree = "<group>"; };
+		C94A79241DF68FD1003F8BFF /* NSString+JKMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKMatcher.h"; sourceTree = "<group>"; };
+		C94A79251DF68FD1003F8BFF /* NSString+JKMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKMatcher.m"; sourceTree = "<group>"; };
+		C94A79261DF68FD1003F8BFF /* NSString+JKMIME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKMIME.h"; sourceTree = "<group>"; };
+		C94A79271DF68FD1003F8BFF /* NSString+JKMIME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKMIME.m"; sourceTree = "<group>"; };
+		C94A79281DF68FD1003F8BFF /* NSString+JKNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKNormalRegex.h"; sourceTree = "<group>"; };
+		C94A79291DF68FD1003F8BFF /* NSString+JKNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKNormalRegex.m"; sourceTree = "<group>"; };
+		C94A792A1DF68FD1003F8BFF /* NSString+JKPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKPinyin.h"; sourceTree = "<group>"; };
+		C94A792B1DF68FD1003F8BFF /* NSString+JKPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKPinyin.m"; sourceTree = "<group>"; };
+		C94A792C1DF68FD1003F8BFF /* NSString+JKRemoveEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKRemoveEmoji.h"; sourceTree = "<group>"; };
+		C94A792D1DF68FD1003F8BFF /* NSString+JKRemoveEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKRemoveEmoji.m"; sourceTree = "<group>"; };
+		C94A792E1DF68FD1003F8BFF /* NSString+JKScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKScore.h"; sourceTree = "<group>"; };
+		C94A792F1DF68FD1003F8BFF /* NSString+JKScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKScore.m"; sourceTree = "<group>"; };
+		C94A79301DF68FD1003F8BFF /* NSString+JKSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKSize.h"; sourceTree = "<group>"; };
+		C94A79311DF68FD1003F8BFF /* NSString+JKSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKSize.m"; sourceTree = "<group>"; };
+		C94A79321DF68FD1003F8BFF /* NSString+JKTrims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKTrims.h"; sourceTree = "<group>"; };
+		C94A79331DF68FD1003F8BFF /* NSString+JKTrims.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKTrims.m"; sourceTree = "<group>"; };
+		C94A79341DF68FD1003F8BFF /* NSString+JKURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKURLEncode.h"; sourceTree = "<group>"; };
+		C94A79351DF68FD1003F8BFF /* NSString+JKURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKURLEncode.m"; sourceTree = "<group>"; };
+		C94A79361DF68FD1003F8BFF /* NSString+JKUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKUUID.h"; sourceTree = "<group>"; };
+		C94A79371DF68FD1003F8BFF /* NSString+JKUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKUUID.m"; sourceTree = "<group>"; };
+		C94A79381DF68FD1003F8BFF /* NSString+JKXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKXMLDictionary.h"; sourceTree = "<group>"; };
+		C94A79391DF68FD1003F8BFF /* NSString+JKXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKXMLDictionary.m"; sourceTree = "<group>"; };
+		C94A794B1DF69204003F8BFF /* NSData+JKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKBase64.h"; sourceTree = "<group>"; };
+		C94A794C1DF69204003F8BFF /* NSData+JKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKBase64.m"; sourceTree = "<group>"; };
+		C94A794E1DF6923C003F8BFF /* NSData+JKEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKEncrypt.h"; sourceTree = "<group>"; };
+		C94A794F1DF6923C003F8BFF /* NSData+JKEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKEncrypt.m"; sourceTree = "<group>"; };
 		C97AEC091DDD779400586B80 /* UIView+JKBlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKBlockGesture.h"; sourceTree = "<group>"; };
 		C97AEC0A1DDD779400586B80 /* UIView+JKBlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKBlockGesture.m"; sourceTree = "<group>"; };
 		C97AEC0C1DDD77C400586B80 /* UIView+JKCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKCustomBorder.h"; sourceTree = "<group>"; };
@@ -128,8 +184,6 @@
 		C9C062E21DD59C44002FCCFF /* NSObject+JKBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKBlocks.m"; sourceTree = "<group>"; };
 		C9C062E31DD59C44002FCCFF /* NSObject+JKRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKRuntime.h"; sourceTree = "<group>"; };
 		C9C062E41DD59C44002FCCFF /* NSObject+JKRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKRuntime.m"; sourceTree = "<group>"; };
-		C9C062E51DD59C44002FCCFF /* NSString+JKSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKSize.h"; sourceTree = "<group>"; };
-		C9C062E61DD59C44002FCCFF /* NSString+JKSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKSize.m"; sourceTree = "<group>"; };
 		C9C062E71DD59C44002FCCFF /* UIAlertView+JKBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+JKBlock.h"; sourceTree = "<group>"; };
 		C9C062E81DD59C44002FCCFF /* UIAlertView+JKBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+JKBlock.m"; sourceTree = "<group>"; };
 		C9C062E91DD59C44002FCCFF /* UIButton+JKBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JKBlock.h"; sourceTree = "<group>"; };
@@ -327,8 +381,44 @@
 				C9C062E21DD59C44002FCCFF /* NSObject+JKBlocks.m */,
 				C9C062E31DD59C44002FCCFF /* NSObject+JKRuntime.h */,
 				C9C062E41DD59C44002FCCFF /* NSObject+JKRuntime.m */,
-				C9C062E51DD59C44002FCCFF /* NSString+JKSize.h */,
-				C9C062E61DD59C44002FCCFF /* NSString+JKSize.m */,
+				C94A794E1DF6923C003F8BFF /* NSData+JKEncrypt.h */,
+				C94A794F1DF6923C003F8BFF /* NSData+JKEncrypt.m */,
+				C94A794B1DF69204003F8BFF /* NSData+JKBase64.h */,
+				C94A794C1DF69204003F8BFF /* NSData+JKBase64.m */,
+				C94A79181DF68FD1003F8BFF /* NSString+JKBase64.h */,
+				C94A79191DF68FD1003F8BFF /* NSString+JKBase64.m */,
+				C94A791A1DF68FD1003F8BFF /* NSString+JKContains.h */,
+				C94A791B1DF68FD1003F8BFF /* NSString+JKContains.m */,
+				C94A791C1DF68FD1003F8BFF /* NSString+JKDictionaryValue.h */,
+				C94A791D1DF68FD1003F8BFF /* NSString+JKDictionaryValue.m */,
+				C94A791E1DF68FD1003F8BFF /* NSString+JKEmoji.h */,
+				C94A791F1DF68FD1003F8BFF /* NSString+JKEmoji.m */,
+				C94A79201DF68FD1003F8BFF /* NSString+JKEncrypt.h */,
+				C94A79211DF68FD1003F8BFF /* NSString+JKEncrypt.m */,
+				C94A79221DF68FD1003F8BFF /* NSString+JKHash.h */,
+				C94A79231DF68FD1003F8BFF /* NSString+JKHash.m */,
+				C94A79241DF68FD1003F8BFF /* NSString+JKMatcher.h */,
+				C94A79251DF68FD1003F8BFF /* NSString+JKMatcher.m */,
+				C94A79261DF68FD1003F8BFF /* NSString+JKMIME.h */,
+				C94A79271DF68FD1003F8BFF /* NSString+JKMIME.m */,
+				C94A79281DF68FD1003F8BFF /* NSString+JKNormalRegex.h */,
+				C94A79291DF68FD1003F8BFF /* NSString+JKNormalRegex.m */,
+				C94A792A1DF68FD1003F8BFF /* NSString+JKPinyin.h */,
+				C94A792B1DF68FD1003F8BFF /* NSString+JKPinyin.m */,
+				C94A792C1DF68FD1003F8BFF /* NSString+JKRemoveEmoji.h */,
+				C94A792D1DF68FD1003F8BFF /* NSString+JKRemoveEmoji.m */,
+				C94A792E1DF68FD1003F8BFF /* NSString+JKScore.h */,
+				C94A792F1DF68FD1003F8BFF /* NSString+JKScore.m */,
+				C94A79301DF68FD1003F8BFF /* NSString+JKSize.h */,
+				C94A79311DF68FD1003F8BFF /* NSString+JKSize.m */,
+				C94A79321DF68FD1003F8BFF /* NSString+JKTrims.h */,
+				C94A79331DF68FD1003F8BFF /* NSString+JKTrims.m */,
+				C94A79341DF68FD1003F8BFF /* NSString+JKURLEncode.h */,
+				C94A79351DF68FD1003F8BFF /* NSString+JKURLEncode.m */,
+				C94A79361DF68FD1003F8BFF /* NSString+JKUUID.h */,
+				C94A79371DF68FD1003F8BFF /* NSString+JKUUID.m */,
+				C94A79381DF68FD1003F8BFF /* NSString+JKXMLDictionary.h */,
+				C94A79391DF68FD1003F8BFF /* NSString+JKXMLDictionary.m */,
 				C9C062E71DD59C44002FCCFF /* UIAlertView+JKBlock.h */,
 				C9C062E81DD59C44002FCCFF /* UIAlertView+JKBlock.m */,
 				C9C062E91DD59C44002FCCFF /* UIButton+JKBlock.h */,
@@ -582,36 +672,54 @@
 			files = (
 				C9C063161DD59C44002FCCFF /* UIView+JKShake.m in Sources */,
 				C9C063131DD59C44002FCCFF /* UITextField+JKSelect.m in Sources */,
+				C94A79491DF68FD1003F8BFF /* NSString+JKUUID.m in Sources */,
+				C94A79411DF68FD1003F8BFF /* NSString+JKMIME.m in Sources */,
+				C94A794A1DF68FD1003F8BFF /* NSString+JKXMLDictionary.m in Sources */,
 				C97AEC141DDD784400586B80 /* UIView+JKVisuals.m in Sources */,
 				C9C063081DD59C44002FCCFF /* NSObject+JKRuntime.m in Sources */,
+				C94A79451DF68FD1003F8BFF /* NSString+JKScore.m in Sources */,
+				C94A79421DF68FD1003F8BFF /* NSString+JKNormalRegex.m in Sources */,
 				C9C063101DD59C44002FCCFF /* UIControl+JKBlock.m in Sources */,
 				C97AEC171DDD786D00586B80 /* UIViewController+JKBackButtonTouched.m in Sources */,
 				C97AEC111DDD780000586B80 /* UIView+JKFind.m in Sources */,
 				C914BD9E1DDC2CA5008BFD6C /* UIImage+JKColor.m in Sources */,
+				C94A79461DF68FD1003F8BFF /* NSString+JKSize.m in Sources */,
 				C9C0630F1DD59C44002FCCFF /* UIControl+JKActionBlocks.m in Sources */,
+				C94A793D1DF68FD1003F8BFF /* NSString+JKEmoji.m in Sources */,
 				C9C063111DD59C44002FCCFF /* UIImage+LXExtension.m in Sources */,
-				C9C063091DD59C44002FCCFF /* NSString+JKSize.m in Sources */,
+				C94A79501DF6923C003F8BFF /* NSData+JKEncrypt.m in Sources */,
 				C9C063171DD59C44002FCCFF /* UIView+Utils.m in Sources */,
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				C9C063071DD59C44002FCCFF /* NSObject+JKBlocks.m in Sources */,
 				C9C063041DD59C44002FCCFF /* NSDate+JKUtilities.m in Sources */,
 				C9C063031DD59C44002FCCFF /* NSArray+JKSafeAccess.m in Sources */,
+				C94A79471DF68FD1003F8BFF /* NSString+JKTrims.m in Sources */,
 				C93806C91DD87E690063BF7F /* UIView+Debug.m in Sources */,
 				C97AEC0E1DDD77C400586B80 /* UIView+JKCustomBorder.m in Sources */,
 				C9C063051DD59C44002FCCFF /* NSDictionary+JKJSONString.m in Sources */,
+				C94A793C1DF68FD1003F8BFF /* NSString+JKDictionaryValue.m in Sources */,
 				C9C0630A1DD59C44002FCCFF /* UIAlertView+JKBlock.m in Sources */,
 				C9C063141DD59C44002FCCFF /* UITextField+JKShake.m in Sources */,
+				C94A793B1DF68FD1003F8BFF /* NSString+JKContains.m in Sources */,
 				C97AEC0B1DDD779400586B80 /* UIView+JKBlockGesture.m in Sources */,
 				C9C0630B1DD59C44002FCCFF /* UIButton+JKBlock.m in Sources */,
 				C914BDA11DDC2CC0008BFD6C /* UIImage+JKOrientation.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
+				C94A79441DF68FD1003F8BFF /* NSString+JKRemoveEmoji.m in Sources */,
+				C94A794D1DF69204003F8BFF /* NSData+JKBase64.m in Sources */,
+				C94A79401DF68FD1003F8BFF /* NSString+JKMatcher.m in Sources */,
 				C9C0630C1DD59C44002FCCFF /* UIButton+JKImagePosition.m in Sources */,
+				C94A793E1DF68FD1003F8BFF /* NSString+JKEncrypt.m in Sources */,
 				C9C063151DD59C44002FCCFF /* UIView+Borders.m in Sources */,
 				C93806CC1DD887820063BF7F /* UIView+Nib.m in Sources */,
+				C94A79431DF68FD1003F8BFF /* NSString+JKPinyin.m in Sources */,
 				C9C0630E1DD59C44002FCCFF /* UIColor+JKHEX.m in Sources */,
 				C9C0630D1DD59C44002FCCFF /* UIColor+JKGradient.m in Sources */,
 				C9C063061DD59C44002FCCFF /* NSDictionary+JKSafeAccess.m in Sources */,
+				C94A79481DF68FD1003F8BFF /* NSString+JKURLEncode.m in Sources */,
 				C9C063121DD59C44002FCCFF /* UITextField+JKBlocks.m in Sources */,
+				C94A793F1DF68FD1003F8BFF /* NSString+JKHash.m in Sources */,
+				C94A793A1DF68FD1003F8BFF /* NSString+JKBase64.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				C9EDE32D1DD8097800995755 /* UIView+Screenshot.m in Sources */,
 			);
