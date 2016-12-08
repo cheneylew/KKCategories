@@ -7,6 +7,7 @@
 //
 
 #import "KKViewController.h"
+#import "KKCategories.h"
 
 @interface KKViewController ()
 
@@ -24,7 +25,19 @@
     [self.view addSubview:btn];
     
     [btn jk_addActionHandler:^(NSInteger tag) {
-        [btn jk_addCenterMotionEffectsXYWithOffset:10];
+        UIImage *img = [UIImage imageNamed:@"complete"];
+        CGSize size = [img size];
+        UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, size.width, size.height)];
+        imgView.image = img;
+        [self.view addSubview:imgView];
+        
+        CGSize newSize = CGSizeMake(size.width*1.2, size.height*1.2);
+        UIImage *newImg = [img jk_scaleToSize:newSize];
+        CGSize resize = [newImg size];
+        UIImageView *imgView1 = [[UIImageView alloc] initWithFrame:CGRectMake(0, 200, resize.width, resize.height)];
+        imgView1.image = newImg;
+        [self.view addSubview:imgView1];
+        
     }];
 }
 
