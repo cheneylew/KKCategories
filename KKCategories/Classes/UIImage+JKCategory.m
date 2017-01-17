@@ -488,6 +488,43 @@
     return img;
 }
 
+/**
+ 压缩图片到指定文件大小，以KB为单位。因为图片比较大，采取多线程渲染
+
+ @param size 目标大小（最大值）KB为单位
+ @return 图片二进制
+ */
+- (void)jk_compressToMaxDataSizeKBytes:(CGFloat)size
+                            complation:(void (^)(NSData *data, double rate, NSInteger execCount)) complation{
+    __weak UIImage *weakSelf = self;
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        __strong UIImage *strongSelf = weakSelf;
+        UIImage *image = strongSelf;
+        NSData * data = UIImageJPEGRepresentation(image, 1);
+        CGFloat dataKBytes = data.length/1024.0;
+        CGFloat maxQuality = 0.7f;
+        CGFloat lastData = dataKBytes;
+        NSInteger count = 0;
+        while (dataKBytes > size && maxQuality > 0.01f) {
+            count ++;
+            maxQuality = maxQuality - 0.08f;
+            if (maxQuality < 0) {
+                maxQuality = 0.04f;
+            }
+            data = UIImageJPEGRepresentation(image, maxQuality);
+            dataKBytes = data.length / 1024.0;
+            if (lastData == dataKBytes) {
+                break;
+            }else{
+                lastData = dataKBytes;
+            }
+        };
+        dispatch_async(dispatch_get_main_queue(), ^{
+            complation(data, maxQuality, count);
+        });
+    });
+}
+
 @end
 
 

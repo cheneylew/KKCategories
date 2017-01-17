@@ -75,6 +75,7 @@
 		C9C063151DD59C44002FCCFF /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C062FE1DD59C44002FCCFF /* UIView+Borders.m */; };
 		C9C063161DD59C44002FCCFF /* UIView+JKShake.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C063001DD59C44002FCCFF /* UIView+JKShake.m */; };
 		C9C063171DD59C44002FCCFF /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C063021DD59C44002FCCFF /* UIView+Utils.m */; };
+		C9C1CA3D1E2E1CCD003E7447 /* WechatIMG1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA3C1E2E1CCD003E7447 /* WechatIMG1.jpeg */; };
 		C9EDE32D1DD8097800995755 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDE32C1DD8097800995755 /* UIView+Screenshot.m */; };
 /* End PBXBuildFile section */
 
@@ -218,6 +219,7 @@
 		C9C063001DD59C44002FCCFF /* UIView+JKShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKShake.m"; sourceTree = "<group>"; };
 		C9C063011DD59C44002FCCFF /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
 		C9C063021DD59C44002FCCFF /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		C9C1CA3C1E2E1CCD003E7447 /* WechatIMG1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG1.jpeg; sourceTree = "<group>"; };
 		C9EDE32B1DD8097800995755 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
 		C9EDE32C1DD8097800995755 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
 		EBF53556CFD96D8E073F9978 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -305,6 +307,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KKViewController.h */,
 				6003F5A6195388D20070C39A /* KKViewController.m */,
+				C9C1CA3C1E2E1CCD003E7447 /* WechatIMG1.jpeg */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -565,6 +568,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				C9C1CA3D1E2E1CCD003E7447 /* WechatIMG1.jpeg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				C9C062D61DD59C23002FCCFF /* .gitkeep in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,

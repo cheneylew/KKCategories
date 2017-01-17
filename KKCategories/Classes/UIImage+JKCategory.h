@@ -48,4 +48,13 @@
 
 - (UIImage *)jk_scaleToSize:(CGSize)size;
 
+/**
+ 压缩图片到指定文件大小，以KB为单位。因为图片比较大，采取多线程压缩
+
+ @param size 指定尺寸
+ @param complation 回调
+ */
+- (void)jk_compressToMaxDataSizeKBytes:(CGFloat)size
+                            complation:(void (^)(NSData *data, double rate, NSInteger execCount)) complation;
+
 @end
