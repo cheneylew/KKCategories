@@ -39,7 +39,7 @@
 //        [self.view addSubview:imgView1];
         
         UIImage *image = [UIImage imageNamed:@"WechatIMG1.jpeg"];
-        [image jk_compressToMaxDataSizeKBytes:500 complation:^(NSData *data, double rate, NSInteger execCount) {
+        [image jk_compressToMaxDataSizeKBytes:610 complation:^(NSData *data, double rate, NSInteger execCount) {
             float kb = data.length/1024.0f;
             NSLog(@"");
         }];

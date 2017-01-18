@@ -502,22 +502,20 @@
         UIImage *image = strongSelf;
         NSData * data = UIImageJPEGRepresentation(image, 1);
         CGFloat dataKBytes = data.length/1024.0;
-        CGFloat maxQuality = 0.7f;
+        CGFloat maxQuality = 0.8f;
         CGFloat lastData = dataKBytes;
         NSInteger count = 0;
-        while (dataKBytes > size && maxQuality > 0.01f) {
+        CGFloat step = 0.07f;
+        while (dataKBytes > size && maxQuality > step) {
             count ++;
-            maxQuality = maxQuality - 0.08f;
+            maxQuality = maxQuality - step;
             if (maxQuality < 0) {
-                maxQuality = 0.04f;
+                maxQuality = step;
             }
+            
             data = UIImageJPEGRepresentation(image, maxQuality);
             dataKBytes = data.length / 1024.0;
-            if (lastData == dataKBytes) {
-                break;
-            }else{
-                lastData = dataKBytes;
-            }
+            lastData = dataKBytes;
         };
         dispatch_async(dispatch_get_main_queue(), ^{
             complation(data, maxQuality, count);
