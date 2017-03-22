@@ -1,9 +1,9 @@
 {
   "name": "KKCategories",
-  "version": "0.1.0",
-  "summary": "A short description of KKCategories.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/KKCategories",
+  "version": "0.3.10",
+  "summary": "KKCategories 常用分类汇总.",
+  "description": "KKCategories 常用分类汇总，用于快速配置项目\nKKCategories 常用分类汇总，用于快速配置项目\nKKCategories 常用分类汇总，用于快速配置项目",
+  "homepage": "https://github.com/cheneylew/KKCategories",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Deju Liu": "cheneylew@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/KKCategories.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/cheneylew/KKCategories.git",
+    "tag": "0.3.10"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KKCategories/Classes/**/*"
+  "source_files": "KKCategories/Classes/**/*",
+  "frameworks": "UIKit"
 }

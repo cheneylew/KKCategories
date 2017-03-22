@@ -10,7 +10,7 @@
 
 @interface UIColor (JKGradient)
 /**
- *  @brief  渐变颜色
+ *  @brief  上下渐变颜色
  *
  *  @param c1     开始颜色
  *  @param c2     结束颜色
@@ -19,4 +19,14 @@
  *  @return 渐变颜色
  */
 + (UIColor*)jk_gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withHeight:(int)height;
+
+/**
+ 左右颜色渐变
+
+ @param c1 <#c1 description#>
+ @param c2 <#c2 description#>
+ @param width <#width description#>
+ @return <#return value description#>
+ */
++ (UIColor*)jk_gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withWidth:(int)width;
 @end

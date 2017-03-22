@@ -1,5 +1,5 @@
 PODS:
-  - KKCategories (0.1.0)
+  - KKCategories (0.3.10)
 
 DEPENDENCIES:
   - KKCategories (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  KKCategories: 0bbe1daf641421c82127958a98731ef6df0e5189
+  KKCategories: 3aec5f67a4e251df77823eb1cdae8f1c13b16546
 
 PODFILE CHECKSUM: 1c9cbe600eec35eb5193d695422f9fcdafce3851
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0.beta.1
